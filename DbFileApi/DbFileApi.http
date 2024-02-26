@@ -1,0 +1,6 @@
+@DbFileApi_HostAddress = http://localhost:5075
+
+GET {{DbFileApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
