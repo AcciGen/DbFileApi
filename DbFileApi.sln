@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFileApi.API", "DbFileApi\DbFileApi.API.csproj", "{96299EC7-C8FE-4386-8CA6-9EBB3971F721}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbFileApi.API", "DbFileApi\DbFileApi.API.csproj", "{96299EC7-C8FE-4386-8CA6-9EBB3971F721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFileApi.Application", "DbFileApi.Application\DbFileApi.Application.csproj", "{63451451-3DC1-4F8A-9909-18FEB74FB7AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFileApi.Application", "Application\DbFileApi.Application.csproj", "{471EAE64-E359-470C-B771-353B7DB9E30B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFileApi.Domain", "DbFileApi.Domain\DbFileApi.Domain.csproj", "{9FF6F78E-4FE8-4A2B-B4AF-F505009B39A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFileApi.Domain", "Domain\DbFileApi.Domain.csproj", "{4AFB49C6-CA90-4076-BC60-C012D5DB1260}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFileApi.Infrastructure", "DbFileApi.Infrastructure\DbFileApi.Infrastructure.csproj", "{4A0F87B9-329C-4D4F-87A5-E8BDFE3A84D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFileApi.Infrastructure", "Infrastructure\DbFileApi.Infrastructure.csproj", "{1B74BB58-1DE7-4BC0-9959-E57ACA0C70D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{96299EC7-C8FE-4386-8CA6-9EBB3971F721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96299EC7-C8FE-4386-8CA6-9EBB3971F721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96299EC7-C8FE-4386-8CA6-9EBB3971F721}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63451451-3DC1-4F8A-9909-18FEB74FB7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63451451-3DC1-4F8A-9909-18FEB74FB7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63451451-3DC1-4F8A-9909-18FEB74FB7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63451451-3DC1-4F8A-9909-18FEB74FB7AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FF6F78E-4FE8-4A2B-B4AF-F505009B39A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FF6F78E-4FE8-4A2B-B4AF-F505009B39A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FF6F78E-4FE8-4A2B-B4AF-F505009B39A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FF6F78E-4FE8-4A2B-B4AF-F505009B39A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A0F87B9-329C-4D4F-87A5-E8BDFE3A84D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A0F87B9-329C-4D4F-87A5-E8BDFE3A84D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A0F87B9-329C-4D4F-87A5-E8BDFE3A84D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A0F87B9-329C-4D4F-87A5-E8BDFE3A84D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471EAE64-E359-470C-B771-353B7DB9E30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471EAE64-E359-470C-B771-353B7DB9E30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471EAE64-E359-470C-B771-353B7DB9E30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471EAE64-E359-470C-B771-353B7DB9E30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AFB49C6-CA90-4076-BC60-C012D5DB1260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AFB49C6-CA90-4076-BC60-C012D5DB1260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AFB49C6-CA90-4076-BC60-C012D5DB1260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AFB49C6-CA90-4076-BC60-C012D5DB1260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B74BB58-1DE7-4BC0-9959-E57ACA0C70D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B74BB58-1DE7-4BC0-9959-E57ACA0C70D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B74BB58-1DE7-4BC0-9959-E57ACA0C70D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B74BB58-1DE7-4BC0-9959-E57ACA0C70D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
